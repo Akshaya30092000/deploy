@@ -9,7 +9,7 @@
             handleblur:emailhandleblur,
             entered:email
         }=useinput(function(value){
-            let pattern=new RegExp("[a-z0-9]{10,15}@[a-z]{5,7}.[a-z]{2,3}");
+            let pattern=new RegExp("[a-z0-9]{10,25}@[a-z]{5,7}.[a-z]{2,3}");
             return pattern.test(value);
             
         });
